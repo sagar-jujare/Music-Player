@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6da4ae72f0.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        
+        <!--====== Menu side ======-->
+        <div class="menu_side">
+            <!-- <i class="fa-solid fa-compact-disc"></i> -->
+            <h1>Playlist</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="fa-solid fa-music"></i>Playlist</h4>
+                <h4><span></span><i class="fa-solid fa-music"></i>Last Listening</h4>
+                <h4><span></span><i class="fa-solid fa-music"></i>Recommended</h4>
+            </div>
+            <div class="menu_song">
+                <li class="songItem">
+                    <span>01</span>
+                    <img src="images/img-1.jpg" alt="">
+                    <h5>Mehabooba<br> 
+                        <div class="subtitle">Ananya Bhat</div>
+                    </h5>
+                    <i class="fa-solid playlListPlay fa-circle-play" id="1"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>02</span>
+                    <img src="images/img-2.jpg" alt="">
+                    <h5>Mehabooba<br> 
+                        <div class="subtitle">Ananya Bhat</div>
+                    </h5>
+                    <i class="fa-solid playlListPlay fa-circle-play" id="2"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>03</span>
+                    <img src="images/img-3.webp" alt="">
+                    <h5>Mehabooba<br> 
+                        <div class="subtitle">Ananya Bhat</div>
+                    </h5>
+                    <i class="fa-solid playlListPlay fa-circle-play" id="3"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>04</span>
+                    <img src="images/img-4.jpg" alt="">
+                    <h5>Mehabooba<br> 
+                        <div class="subtitle">Ananya Bhat</div>
+                    </h5>
+                    <i class="fa-solid playlListPlay fa-circle-play" id="4"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>05</span>
+                    <img src="images/img-5.jpg" alt="">
+                    <h5>Mehabooba<br> 
+                        <div class="subtitle">Ananya Bhat</div>
+                    </h5>
+                    <i class="fa-solid playlListPlay fa-circle-play" id="5"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>06</span>
+                    <img src="images/img-6.jpg" alt="">
+                    <h5>Mehabooba<br> 
+                        <div class="subtitle">Ananya Bhat</div>
+                    </h5>
+                    <i class="fa-solid playlListPlay fa-circle-play" id="6"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>07</span>
+                    <img src="images/img-7.jpg" alt="">
+                    <h5>Mehabooba<br> 
+                        <div class="subtitle">Ananya Bhat</div>
+                    </h5>
+                    <i class="fa-solid playlListPlay fa-circle-play" id="7"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>08</span>
+                    <img src="images/img-8.avif" alt="">
+                    <h5>Mehabooba<br> 
+                        <div class="subtitle">Ananya Bhat</div>
+                    </h5>
+                    <i class="fa-solid playlListPlay fa-circle-play" id="8"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>09</span>
+                    <img src="images/img-9.webp" alt="">
+                    <h5>Mehabooba<br> 
+                        <div class="subtitle">Ananya Bhat</div>
+                    </h5>
+                    <i class="fa-solid playlListPlay fa-circle-play" id="9"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>10</span>
+                    <img src="images/img-10.jpg" alt="">
+                    <h5>Mehabooba<br> 
+                        <div class="subtitle">Ananya Bhat</div>
+                    </h5>
+                    <i class="fa-solid playlListPlay fa-circle-play" id="10"></i>
+                </li>
+
+            </div>
+
+            <!--======= Account =======-->  
+            <div class="menu_account">
+                <ul>
+                    <li class="profile"><i class="fa-solid fa-user"></i><a href="#">Account</a></li>
+                    <li class="settings"><i class="fa-solid fa-gear"></i><a href="#">Settings</a></li>
+                    <li class="logout"><i class="fa-solid fa-power-off"></i><a href="#">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--======= song side =======-->
+        <div class="song_side">
+            <nav>
+                <ul>
+                    <li>Discover <span></span></li>
+                    <li>My Library</li>
+                    <li>Radio</li>
+                </ul>
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="user">
+                    <img src="images/logo.png" alt="">
+                </div>
+            </nav>
+
+            <div class="content-head">
+                <div class="content">
+                    <h1>Neha Kakkar</h1> 
+                    <p>Neha Kakkar Singh, is an Indian playback singer. In 2019, Kakkar was listed among the most-viewed female artists on YouTube with 4.2 billion views. She appeared in the India Forbes Celebrity 100 in 2017 and 2019. In December 2020, she appeared in the list of Asia's 100 Digital Stars by Forbes.</p>
+                    <div class="buttons">
+                        <a href="#singlepage.html"><button>Play All</button></a>
+                        <button>Follow</button>
+                    </div>
+                </div>
+
+                <!-- content-2 -->
+
+                <div class="content-2">
+                    
+                </div>
+                <!--  -->
+            </div>
+
+            <div class="popular_song">
+                <div class="h4">
+                    <h4>Popular Songs</h4>
+                    <div class="btn_s">
+                        <i class="fa-solid fa-arrow-left" id="pop_song_left"></i>
+                        <i class="fa-solid fa-arrow-right" id="pop_song_right"></i>
+                    </div>
+                </div>
+                <div class="pop_song">
+                    <li class="songItem">
+                        <div class="img_play">
+                            <i class="fa-solid playlListPlay fa-circle-play" id="1"></i>
+                            <img src="images/img-1.jpg" alt="">
+                        </div>                       
+                        <h5>Vaaste<br> 
+                            <div class="subtitle">Dhavani Bhanushali</div>
+                        </h5>
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img_play">
+                            <i class="fa-solid playlListPlay fa-circle-play" id="2"></i>
+                            <img src="images/img-2.jpg" alt="">
+                        </div>                       
+                        <h5>Vaaste<br> 
+                            <div class="subtitle">Dhavani Bhanushali</div>
+                        </h5>
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img_play">                           
+                            <img src="images/img-3.webp" alt="">
+                            <i class="fa-solid playlListPlay fa-circle-play" id="3"></i>
+                        </div>                       
+                        <h5>Vaaste<br> 
+                            <div class="subtitle">Dhavani Bhanushali</div>
+                        </h5>
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img_play">
+                            
+                            <img src="images/img-4.jpg" alt="">
+                            <i class="fa-solid playlListPlay fa-circle-play" id="4"></i>
+                        </div>                       
+                        <h5>Vaaste<br> 
+                            <div class="subtitle">Dhavani Bhanushali</div>
+                        </h5>
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img_play">
+                            
+                            <img src="images/img-5.jpg" alt="">
+                            <i class="fa-solid playlListPlay fa-circle-play" id="5"></i>
+                        </div>                       
+                        <h5>Vaaste<br> 
+                            <div class="subtitle">Dhavani Bhanushali</div>
+                        </h5>
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img_play">                            
+                            <img src="images/img-6.jpg" alt="">
+                            <i class="fa-solid playlListPlay fa-circle-play" id="6"></i>
+                        </div>                       
+                        <h5>Vaaste<br> 
+                            <div class="subtitle">Dhavani Bhanushali</div>
+                        </h5>
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img_play">
+                            
+                            <img src="images/img-7.jpg" alt="">
+                            <i class="fa-solid playlListPlay fa-circle-play" id="7"></i>
+                        </div>                       
+                        <h5>Vaaste<br> 
+                            <div class="subtitle">Dhavani Bhanushali</div>
+                        </h5>
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img_play">
+                            
+                            <img src="images/img-8.avif" alt="">
+                            <i class="fa-solid playlListPlay fa-circle-play" id="8"></i>
+                        </div>                       
+                        <h5>Vaaste<br> 
+                            <div class="subtitle">Dhavani Bhanushali</div>
+                        </h5>
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img_play">
+                            
+                            <img src="images/img-9.webp" alt="">
+                            <i class="fa-solid playlListPlay fa-circle-play" id="9"></i>
+                        </div>                       
+                        <h5>Vaaste<br> 
+                            <div class="subtitle">Dhavani Bhanushali</div>
+                        </h5>
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img_play">
+                            
+                            <img src="images/img-10.jpg" alt="">
+                            <i class="fa-solid playlListPlay fa-circle-play" id="10"></i>
+                        </div>                       
+                        <h5>Vaaste<br> 
+                            <div class="subtitle">Dhavani Bhanushali</div>
+                        </h5>
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img_play">
+                            
+                            <img src="images/img-1.jpg" alt="">
+                            <i class="fa-solid playlListPlay fa-circle-play" id="7"></i>
+                        </div>                       
+                        <h5>Vaaste<br> 
+                            <div class="subtitle">Dhavani Bhanushali</div>
+                        </h5>
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img_play">
+                            
+                            <img src="images/img-1.jpg" alt="">
+                            <i class="fa-solid playlListPlay fa-circle-play" id="7"></i>
+                        </div>                       
+                        <h5>Vaaste<br> 
+                            <div class="subtitle">Dhavani Bhanushali</div>
+                        </h5>
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img_play">                           
+                            <img src="images/img-1.jpg" alt="">
+                            <i class="fa-solid playlListPlay fa-circle-play" id="7"></i>
+                        </div>                       
+                        <h5>Vaaste<br> 
+                            <div class="subtitle">Dhavani Bhanushali</div>
+                        </h5>
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img_play">                            
+                            <img src="images/img-1.jpg" alt="">
+                            <i class="fa-solid playlListPlay fa-circle-play" id="7"></i>
+                        </div>                       
+                        <h5>Vaaste<br> 
+                            <div class="subtitle">Dhavani Bhanushali</div>
+                        </h5>
+                    </li>
+                    
+                </div>
+            </div>
+
+
+            <div class="top_charts">
+                <div class="h4">
+                    <h4>Top Charts</h4>
+                    
+                </div>
+                <div class="pop_song">
+                    <li class="songItem">
+                        <div class="img_play">
+                            
+                            <img src="image edit/Romantic Hits/1.png" alt="">
+                        </div>
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img_play">
+                            
+                            <img src="image edit/Romantic Hits/2.png" alt="">
+                        </div>                       
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img_play">
+                            
+                            <img src="image edit/Romantic Hits/3.png" alt="">
+                        </div>                       
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img_play">
+                            
+                            <img src="image edit/Romantic Hits/4.png" alt="">
+                        </div>                       
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img_play">
+                            
+                            <img src="image edit/Romantic Hits/5.png" alt="">
+                        </div>                       
+                    </li>
+
+                </div>
+            </div>
+            
+
+            <!-- artists -->
+            <div class="popular_artists">
+                <div class="h4">
+                    <h4>Featured Artists</h4>
+                    <div class="btn_s">
+                        <i class="fa-solid fa-arrow-left" id="pop_art_left"></i>
+                        <i class="fa-solid fa-arrow-right" id="pop_art_right"></i>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <li>
+                        <img src="images/arjit.jpg" alt="">
+                        <div><h5>Argit Singh</h5></div>
+                        
+                    </li>
+
+                    <li>
+                        <img src="images/neha.jpg" alt="">
+                        <h5>Neha Kakkar</h5>
+                    </li>
+
+                    <li>
+                        <img src="images/badsha.jpg" alt="">
+                        <h5>Badsha</h5>
+                    </li>
+
+                    <li>
+                        <img src="images/Himesh.jpg" alt="">
+                        <h5>Dhavani Bhanushali</h5>
+                    </li>
+
+                    <li>
+                        <img src="images/sonu.webp" alt="">
+                        <h5>Dhavani Bhanushali</h5>
+                    </li>
+
+
+                    <li>
+                        <img src="images/sherya.jpg" alt="">
+                        <h5>Dhavani Bhanushali</h5>
+                    </li>
+
+                    <li>
+                        <img src="images/sunidhi.jpg" alt="">
+                        <h5>Dhavani Bhanushali</h5>
+                    </li>
+
+                    <li>
+                        <img src="images/guru.jpg" alt="">
+                        <h5>Dhavani Bhanushali</h5>
+                    </li>
+
+                    <li>
+                        <img src="images/shankar.jpg" alt="">
+                        <h5>Dhavani Bhanushali</h5>
+                    </li>
+
+
+                    <li>
+                        <img src="images/ar.webp" alt="">
+                        <h5>Dhavani Bhanushali</h5>
+                    </li>
+
+
+                    <li>
+                        <img src="images/honey.jpg" alt="">
+                        <h5>Dhavani Bhanushali</h5>
+                    </li>
+
+
+                    <li>
+                        <img src="images/arman.jpg" alt="">
+                        <h5>Dhavani Bhanushali</h5>
+                    </li>                    
+                </div>
+            </div>
+
+            <!-- Top -->
+            <div class="top_lists">
+                <div class="h4">
+                    <h4>Top Lists</h4>
+                    
+                </div>
+                <div class="top_card">
+                    <li class="songItem">
+                        <div class="img_play">
+                            
+                            <img src="image edit/Weekly top 10/1.png" alt="">
+                        </div>
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img_play">
+                            
+                            <img src="image edit/Weekly top 10/2.png" alt="">
+                        </div>                       
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img_play">
+                            
+                            <img src="image edit/Weekly top 10/3.png" alt="">
+                        </div>                       
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img_play">
+                            
+                            <img src="image edit/Weekly top 10/4.png" alt="">
+                        </div>                       
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img_play">
+                            
+                            <img src="image edit/Weekly top 10/5.png" alt="">
+                        </div>                       
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img_play">
+                            
+                            <img src="image edit/Weekly top 10/6.png" alt="">
+                        </div>                       
+                    </li>
+
+                </div>
+            </div>
+
+
+            <!--====== App ======-->
+            <div class="app_head">
+                <div class="app_content">
+                    <img src="images/Sj player.png" alt="">
+                    <h4>Best way to Listen to Music!</h4>
+                    <p></p>
+                </div>
+
+                <div class="app_logo">
+                    <img src="images/play-store.28ce99c9.png" alt="">
+                    <img src="images/apple-store.fd317c9d.png" alt="">
+                </div>
+            </div>
+
+
+            
+        </div>
+
+        <!--======= Master Play =======-->
+        <div class="master_play">
+            <div class="wave" id="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <img src="images/img-1.jpg" alt="" id="poster_master_play">
+            <h5 id="title">
+                Mehabooba
+                <div class="subtitle">Ananya Bhat</div>
+            </h5>
+            <div class="icon">
+                <i class="fa-solid shuffle fa-music">next</i>
+                <i class="fa-solid fa-backward-step"></i>
+                <i class="fa-solid fa-play" id="masterPlay"></i>
+                <i class="fa-solid fa-forward-step"></i>
+                <i class="fa-solid fa-download" id="download_music"></i>
+            </div>
+            <span id="currentStart">0:00</span>
+            <div class="bar">
+                <input type="range" id="seek" min="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+            <span id="currentEnd">0:30</span>
+            <div class="vol">
+                <i class="fa-solid fa-volume-low" id="vol_icon"></i>
+                <input type="range" min="0" max="100" id="vol">               
+                <div class="vol_bar"></div>
+                <div class="dot" id="vol_dot"></div>
+            </div>
+        </div>
+
+    </header>
+
+    <script src="app.js"></script>
+</body>
+</html>

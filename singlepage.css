@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background: black; 
+    display: grid;
+    place-items: center;
+}
+
+header{
+    width: 90%;
+    height: 95%;
+    /* border: 1px solid #fff; */
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    /* background: url(images/neha.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header .row{
+    width: 100%;
+    height: 87%;
+    /* border: 1px solid #fff; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    background: linear-gradient(162.8deg, #060A1A 5.96%, #000000 24.84%, #050918 46.03%, #020202 69.82%, #050915 92.89%);;
+}
+
+/* col-1 */
+header .row .col-1{
+    flex-basis: 20%;
+    /* border: 1px solid red; */
+    width: auto;
+    height: 100%;
+    /* align-items: center; */
+}
+
+header .row .col-1 h1{
+    text-align: center;
+    padding-top: 50px;
+}
+
+header .row .col-1 p{
+    text-align: center;
+    color: grey;
+}
+
+header .row .col-1 img{
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+header .row .col-1 .button1 {
+    background: none; 
+    color: white; 
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+
+  
+
+  header .row .col-1 .button1:hover{
+    background: rgb(255, 174, 0);
+    /* border: black; */
+    color: black;
+  }
+
+  header .row .col-1 a {
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+
+  header .row .fa-solid:hover{
+    color: rgb(255, 174, 0);
+  }
+
+  header .row .col-1 .dropdown .dropdown-content a{
+    font-size: 18px;
+    font-weight: 800;
+    color: #000000;
+  }
+
+
+  /* colom -2 */
+
+header .row .col-2{
+    /* display: flex; */
+    margin-left: 5%;
+    flex-basis: 70%;
+    /* border: 1px solid gold; */
+    width: auto;
+    height: 87%;
+}
+
+header .row .col-2 p{
+  color: grey;
+}
+
+header .row .col-2 .button1 {
+  background: none; 
+  color: white; 
+  border: 1px solid white;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+
+
+header .row .col-2 .button1:hover{
+  background: rgb(255, 174, 0);
+  color: black;
+}
+
+header .menu_song{
+  width: 100%;
+  height: 80%;
+  /* border: 1px solid #fff; */
+  margin-top: 30px;
+  overflow: auto;
+}
+
+header .menu_song::-webkit-scrollbar{   /* making invisible scroll bar */
+  display: none;
+}
+
+header .menu_song li{
+  list-style-type: none;
+  position: relative;
+  padding: 5px 0px 5px 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: .3s linear;
+}
+
+header .menu_song li:hover{
+  background: rgb(105,105,105,.2);
+}
+
+header .menu_song li span{
+  font-size: 12px;
+  font-weight: 600;
+  color: #4c524c;
+}
+
+header .menu_song li img{
+  width: 48px;
+  height: 48px;
+  margin-left: 25px;
+}
+
+header .menu_song li h5{
+  font-size: 14px;
+  margin-left: 15px;
+  width: 170px;
+  /* border: 1px solid #fff; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+header .menu_song li span{
+  font-size: 16px;
+}
+
+header .menu_song li h5 .subtitle{
+  font-size: 12px;
+  color: #4c524c;
+}
+
+header .menu_song li .fa-solid{
+  position: absolute;
+  right: 15px;
+  /* top: 6px; */
+} 
+
+
+header .menu_song .songItem a{
+  margin-top: -5%;
+  /* margin-left: -10%; */
+}
+
+header .menu_song .songItem a i{
+  margin-left: -5%;
+}
+
+
+
+/*======== Master Play =========*/
+header .master_play{
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  width: 100%;
+}
+
+header .master_play .wave{
+  width: 40px;
+  height: 40px;
+  /* border: 1px solid white; */
+  padding-bottom: 5px;
+  display: flex;
+  align-items: flex-end;
+  margin-right: 10px;
+}
+
+header .master_play .wave .wave1{
+  width: 5px;
+  height: 15px;
+  background: #36e2ec;
+  margin-right: 3px;
+  border-radius: 10px 10px 0px 0px;
+  animation: unset;
+}
+
+header .master_play .wave .wave1:nth-child(2){
+  height: 25px;
+  margin-right: 4px;
+  animation-delay: .4s;
+}
+
+header .master_play .wave .wave1:nth-child(3){
+  height: 8px;
+  animation-delay: .1s;
+}
+
+/* Javascript class */
+
+header .master_play .active1 .wave1{
+  animation: wave .5s linear infinite;
+}
+
+header .master_play .active1 .wave1:nth-child(2){
+  animation-delay: .4s;
+}
+
+header .master_play .active1 .wave1:nth-child(3){
+  animation-delay: .1s;
+}
+
+@keyframes wave{
+  0%{
+      height: 10px
+  }
+  50%{
+      height: 15px
+  }
+  100%{
+      height: 10px
+  }
+
+}
+
+header .master_play img{
+  width: 50px;
+  height: 50px;
+}
+
+header .master_play h5{
+  width: 150px;
+  /* border: 1px solid white; */
+  margin-left: 15px;
+  color: #fff;
+  line-height: 17px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 17px;
+}
+
+header .master_play .subtitle{
+  font-size: 12px;
+  color: #4c524c;
+  width: 100%;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+header .master_play .icon{
+  font-size: 20px;
+  color: white;
+  margin: 0px 10px 0px 12px;
+  outline: none;
+  display: flex;
+  align-items: center;
+}
+
+header .master_play .icon i{
+  margin-right: 20px;
+}
+
+header .master_play .icon .fa-solid{
+  cursor: pointer;
+  outline: none;
+}
+
+header .master_play .icon .shuffle{
+  font-size: 17px;
+  margin: 10px;
+  width: 18px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+header .master_play .icon #download_music .fa-solid{
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+header .master_play .icon .fa-solid.wave1:nth-child(3){
+  border: 1px solid rgb(105,105,105,.2);
+  border-radius: 50%;
+  padding: 1px 5px 0px 7px;
+  margin: 0px 5px;
+}
+
+header .master_play span{
+  color: #fff;
+  width: 35px;
+  /* border: 1px solid white; */
+  font-size: 14px;
+  font-weight: 500;
+}
+
+header .master_play #currentStart{
+  margin: 0px 0px 0px 20px;
+}
+
+header .master_play .bar{
+   position: relative;
+   width: 43%;
+   height: 3px;
+   background: rgb(105,105,170,.2);
+   margin: 0px 15px 0px 10px;
+}
+
+header .master_play .bar2{
+  position: absolute;
+  background: #36e2ec;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  transition: 1s linear;
+}
+
+header .master_play .bar .dot{
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #36e2ec;
+  border-radius: 50%;
+  left: 0%;
+  top: -3px;
+  transition: 1s linear;
+}
+
+header .master_play .bar .dot::before{   
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  left: -6px;
+  top: -6px;
+  box-shadow: inset 0px 0px 3px #36e2ec;
+}
+
+header .master_play .bar input{   
+  position: absolute;
+  width: 100%;
+  top: -6px;
+  left: 0;
+  cursor: pointer;
+  z-index: 20;
+  /* transition: 3s linear; */
+  opacity: 0;
+}
+
+header .master_play .vol{
+  position: relative;
+  width: 100px;
+  height: 3px;
+  background: rgb(105,105,170,.2);
+  margin-left: 50px;
+}
+
+header .master_play .vol .fa-solid {
+  position: absolute;
+  color: white;
+  font-size: 25px;
+  /* z-index: 1; */
+  top: -9px;
+  left: -30px;
+}
+
+header .master_play .vol input{
+  position: absolute;
+  width: 100%;
+  top: -5px;
+  left: 0;
+  cursor: pointer;
+  z-index: 5;
+  opacity: 0;
+}
+
+header .master_play .vol .vol_bar{
+  position: absolute;
+  background: #36e2ec;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  transition: 1s linear;
+}
+
+header .master_play .vol .dot{
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #36e2ec;
+  border-radius: 50%;
+  left: 0%;
+  top: -3px;
+  transition: 1s linear;
+}
+
+header .master_play .vol .dot::before{
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  left: -6px;
+  top: -6px;
+  box-shadow: inset 0px 0px 3px #36e2ec;
+}
